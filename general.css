@@ -1,0 +1,88 @@
+body{
+    background:#0B1E28; 
+    color: white;
+    font-family: Arial, sans-serif;
+}
+h1{font-size: min(4vw, 40px);}
+p{font-size: min(3vw, 24px);}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    
+    margin-top: 15vh;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    
+}
+/* ****************************************** */
+.header { 
+    width: 100%;
+    height:15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
+}
+.header a{
+    padding: 10px 15px;
+    font-size: 18px;
+}
+.header a:hover {
+    text-decoration: underline;
+}
+/* ********************home********************** */
+
+.links a {
+
+    padding: 1.5vh 4vw; 
+    margin-right: 1vw;
+    border: 2px solid; 
+    border-radius: 15px; 
+    color:black;
+    font-weight: bold;
+    border-color:white;
+    background:white;
+    font-size: min(2.5vw, 20px);
+}
+
+.links a.green {
+    border-color: #44C6BB;
+    background:#44C6BB ;
+    
+}
+.space{ 
+    height: 58vh; 
+}
+.service{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+}
+
+.service-card {
+    background-color: white;
+    color: black;
+    padding: 15px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    text-align: center;
+   
+}
+.service2{
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.service-card img {
+    width: 100%;
+    max-width: 150px; /* Adjust the GIF size */
+    margin-top: 15px;
+}
+
+
+
